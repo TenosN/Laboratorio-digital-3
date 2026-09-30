@@ -1,14 +1,15 @@
 # Laboratorio 2: Diseño y Simulación de Circuitos Sumadores y Restadores
 **Asignatura:** Electrónica Digital  
 **Institución:** Universidad Nacional de Colombia
+
 **Autores:** Valentina Carreño Granados - Ramón de Jesus Arias Arrieta - Nayib
 
 
-> **Resumen (Abstract):** Este informe/laboratorio presenta el diseño, implementación en HDL y simulación de circuitos aritméticos combinacionales. En la Parte A se aborda el desarrollo incremental desde un sumador de 1 bit hasta un sumador de 4 bits. En la Parte B se presenta el diseño de un sumador/restador parametrizado y la resolución de un reto de diseño aritmético complementario.
+> **Resumen (Abstract):** A continuación presenta el diseño, implementación en HDL y simulación de circuitos aritméticos combinacionales. En la Parte A se aborda el desarrollo incremental desde un sumador de 1 bit hasta un sumador de 4 bits. En la Parte B se presenta el diseño de un sumador/restador parametrizado y la resolución de un reto de diseño aritmético complementario.
 
 ---
 
-## 📄 Tabla de Contenidos
+## Tabla de Contenidos
 1. [Parte A: Circuitos Sumadores](#-parte-a-circuitos-sumadores)
    - [1. Sumador Completo de 1 Bit](#1-sumador-completo-de-1-bit)
    - [2. Sumador de 4 Bits](#2-sumador-de-4-bits)
@@ -19,7 +20,7 @@
 
 ---
 
-## 🔬 Parte A: Circuitos Sumadores
+## :heavy_plus_sign: Parte A: Circuitos Sumadores
 
 ### 1. Sumador Completo de 1 Bit
 
@@ -143,7 +144,7 @@ endmodule
 
 ### 🔬 Parte B
 
-### 1. Sumador restador
+### :warning: 1. Sumador - restador
 
 #### A. Código del Módulo original 
 ```verilog
