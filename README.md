@@ -2,6 +2,7 @@
 **Asignatura:** Electrónica Digital  
 **Institución:** [Universidad Nacional de Colombia]  
 **Autor:** [Valentina Carreño]  
+
 **Autor:** [Ramón de Jesus Arias Arrieta]
 **Autor:** [Nayib] 
 **Fecha:** Septiembre 2026  
@@ -44,6 +45,8 @@ module sumador_1_bbit (
   assign Y = (s0 ^ Cin);
   assign Cout = ((s0 & Cin) | (A & B));
 endmodule
+```
+#### B. Diagrama comportamental Nivel compuertas lógiccas 
 
 
 ---
