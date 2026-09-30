@@ -45,7 +45,7 @@ module sumador_1_bbit (
   assign Cout = ((s0 & Cin) | (A & B));
 endmodule
 
-
+---
 ## 🔬 Parte B
 
 ### 1. Sumador restador
