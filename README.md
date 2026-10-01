@@ -102,7 +102,7 @@ endmodule
 
 ---
 
-### 🔬 Parte B
+## 🔬 Parte B
 
 ### :warning: 1. Sumador - restador
 
@@ -180,7 +180,31 @@ endmodule
 ![Sumador/ restador 4 bits](Sumador-Restador.png)
 
 
-#### :sparkles: RETO DE DISEÑO :sparkles:
+---
+## :sparkles: RETO DE DISEÑO :sparkles:
+
+![comparador reto mayor.png]
+
+En una planta de producción química se utiliza una caldera para calentar una mezcla hasta una temperatura específica necesaria para que ocurra correctamente la reacción del proceso.
+
+Durante la operación del sistema se presentan tres estados posibles:
+
+    Si la temperatura es menor a la temperatura objetivo → el producto aún está en proceso de fabricación.
+    Si la temperatura es exactamente igual a la temperatura objetivo → el producto alcanzó la condición ideal de fabricación.
+    Si la temperatura supera la temperatura objetivo → el producto se quema y se pierde el lote.
+
+Por motivos de seguridad industrial, la planta requiere un sistema digital simple, independiente del software principal, que permita indicar estas condiciones usando únicamente lógica hardware.
+
+### Validación del sistema
+#### Temperatura menor que la temperatura objetivo.
+![Prueba temperatura menor](comparador reto mayor.png)
+
+#### Temperatura igual a la temperatura objetivo.
+![Prueba temperatura perfecta](comparador igual.png)
+
+#### Temperatura mayor que la temperatura objetivo.
+![Prueba temperatura mayor](comparador reto mayor.png)
+
 
 
 
