@@ -197,13 +197,13 @@ Por motivos de seguridad industrial, la planta requiere un sistema digital simpl
 
 ### Validación del sistema
 #### Temperatura menor que la temperatura objetivo.
-![Prueba temperatura menor](comparador reto mayor.png)
+![Prueba temperatura menor](comparador_menor.png)
 
 #### Temperatura igual a la temperatura objetivo.
-![Prueba temperatura perfecta](comparador igual.png)
+![Prueba temperatura perfecta](comparador_igual.png)
 
 #### Temperatura mayor que la temperatura objetivo.
-![Prueba temperatura mayor](comparador reto mayor.png)
+![Prueba temperatura mayor](comparador_mayor.png)
 
 
 
