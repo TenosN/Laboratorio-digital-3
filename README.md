@@ -326,5 +326,5 @@ module Comp4ret (
 endmodule
 
 ```
-![Detalle de componente](Comparador_detalle)
+![Detalle de componente](Comparador_detalle.png)
 
