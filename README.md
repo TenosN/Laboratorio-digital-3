@@ -2,7 +2,7 @@
 **Asignatura:** Electrónica Digital  
 **Institución:** Universidad Nacional de Colombia
 
-**Autores:** Valentina Carreño Granados - Ramón de Jesus Arias Arrieta - Nayib
+**Autores:** Valentina Carreño Granados - Ramón de Jesus Arias Arrieta - Nayib Alberto Soñeth Mercado
 
 
 > **Resumen (Abstract):** A continuación presenta el diseño, implementación en HDL y simulación de circuitos aritméticos combinacionales. En la Parte A se aborda el desarrollo incremental desde un sumador de 1 bit hasta un sumador de 4 bits. En la Parte B se presenta el diseño de un sumador/restador parametrizado y la resolución de un reto de diseño aritmético complementario.
