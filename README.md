@@ -180,3 +180,10 @@ endmodule
 ![Sumador/ restador 4 bits](Sumador-Restador.png)
 
 
+#### :sparkles: RETO DE DISEÑO :sparkles:
+
+
+
+
+
+
