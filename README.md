@@ -223,7 +223,7 @@ module Comp4ret (
   assign \A<  = (~ s0 & ~ Cout);
 endmodule
 
-module reto1_ (
+module reto1 (
   input A0,
   input A1,
   input A2,
@@ -232,14 +232,13 @@ module reto1_ (
   input B1,
   input B2,
   input B3,
-  input Cin_0,
-  input \0 ,
   output Burn,
   output Perfect,
   output Process
 );
   wire s0;
   wire s1;
+  wire const1b1;
   wire s2;
   wire s3;
   wire s4;
@@ -254,36 +253,50 @@ module reto1_ (
   wire s13;
   wire s14;
   wire s15;
-  assign s0 = (B0 ^ Cin_0);
-  assign s4 = (B1 ^ Cin_0);
-  assign s8 = (B2 ^ Cin_0);
-  assign s12 = (B3 ^ Cin_0);
+
+  // Señales internas para conectar la salida del componente
+  wire burn_internal;
+  wire perfect_internal;
+  wire process_internal;
+
+  assign const1b1 = 1'b1;
+  assign s0 = (B0 ^ const1b1);
+  assign s4 = (B1 ^ const1b1);
+  assign s8 = (B2 ^ const1b1);
+  assign s12 = (B3 ^ const1b1);
   assign s1 = (A0 ^ s0);
   assign s5 = (A1 ^ s4);
   assign s9 = (A2 ^ s8);
   assign s13 = (A3 ^ s12);
-  assign s2 = (s1 ^ Cin_0);
-  assign s3 = ((s1 & Cin_0) | (A0 & s0));
+  assign s2 = (s1 ^ const1b1);
+  assign s3 = ((s1 & const1b1) | (A0 & s0));
   assign s6 = (s5 ^ s3);
   assign s7 = ((s5 & s3) | (A1 & s4));
   assign s10 = (s9 ^ s7);
   assign s11 = ((s9 & s7) | (A2 & s8));
   assign s14 = (s13 ^ s11);
   assign s15 = ((s13 & s11) | (A3 & s12));
+
   Comp4ret Comp4ret_i0 (
     .A3( s14 ),
-    .B3( \0  ),
+    .B3( 1'b0 ),
     .A2( s10 ),
-    .B2( \0  ),
+    .B2( 1'b0 ),
     .A1( s6 ),
-    .B1( \0  ),
+    .B1( 1'b0 ),
     .A0( s2 ),
-    .B0( \0  ),
+    .B0( 1'b0 ),
     .Cout( s15 ),
-    .\A> ( Burn ),
-    .\A= ( Perfect ),
-    .\A< ( Process )
+    .\A> ( burn_internal ),
+    .\A= ( perfect_internal ),
+    .\A< ( process_internal )
   );
+
+  // Inversión de las salidas para adecuar a lógica activa baja de la FPGA
+  assign Burn = ~burn_internal;
+  assign Perfect = ~perfect_internal;
+  assign Process = ~process_internal;
+
 endmodule
 ```
 
