@@ -177,7 +177,7 @@ module Sumres (
 endmodule
 ```
 #### B. Diagrama comportamental Nivel compuertas lógiccas 
-![Sumador/ restador 4 bits](Sumador-Restador.png)
+![Sumador/ restador 4 bits](Sum_res_sal.png)
 
 
 ---
