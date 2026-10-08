@@ -1,4 +1,4 @@
-# Laboratorio 2: Diseño y Simulación de Circuitos Digitales
+# Laboratorio 3: Visualización de Resultados en Displays de 7 Segmentos
 
 **Asignatura:** Electrónica Digital  
 **Institución:** Universidad Nacional de Colombia  
