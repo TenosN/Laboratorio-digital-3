@@ -89,3 +89,22 @@ module Sumres (
     assign Cout = ((s14 & s12) | (A3 & s13));
 
 endmodule
+```
+#### B. Diagrama comportamental Nivel compuertas lógiccas 
+![Sumador/ restador 4 bits](Sum_res_sal.png)
+
+
+
+
+
+## 2. Cálculo de Magnitud
+
+
+## 3. Conversor Binario a BCD
+
+
+## 4. Display de Signo
+
+
+## 5. Decodificador BCD a 7 Segmentos
+
