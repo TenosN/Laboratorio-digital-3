@@ -209,3 +209,9 @@ endmodule
 #### A. Diagrama
 ![BCD a 7 Segmentos](bcd_a_7segmentos.png)
 
+
+## :mag: Detalle decodificador BCD a 7 segmentos 
+
+![BCD a 7 Segmentos](BinarioLCD.png)
+
+
