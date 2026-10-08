@@ -28,7 +28,7 @@
  */
 
 module Sumres (
-    input  A0,
+  input  A0,
     input  A1,
     input  A2,
     input  A3,
@@ -75,17 +75,17 @@ module Sumres (
     assign s7  = (B1_int ^ Sel);
     assign s10 = (B2_int ^ Sel);
     assign s13 = (B3_int ^ Sel);
-    assign s5  = (A0 ^ s4);
-    assign S0  = (s5 ^ Sel);
-    assign s6  = ((s5 & Sel) | (A0 & s4));
-    assign s8  = (A1 ^ s7);
-    assign S1  = (s8 ^ s6);
-    assign s9  = ((s8 & s6) | (A1 & s7));
+    assign s5 = (A0 ^ s4);
+    assign S0 = (s5 ^ Sel);
+    assign s6 = ((s5 & Sel) | (A0 & s4));
+    assign s8 = (A1 ^ s7);
+    assign S1 = (s8 ^ s6);
+    assign s9 = ((s8 & s6) | (A1 & s7));
     assign s11 = (A2 ^ s10);
-    assign S2  = (s11 ^ s9);
+    assign S2 = (s11 ^ s9);
     assign s12 = ((s11 & s9) | (A2 & s10));
     assign s14 = (A3 ^ s13);
-    assign S3  = (s14 ^ s12);
+    assign S3 = (s14 ^ s12);
     assign Cout = ((s14 & s12) | (A3 & s13));
 
 endmodule
