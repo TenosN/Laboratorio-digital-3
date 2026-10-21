@@ -15,6 +15,7 @@
 3. [Conversor Binario a BCD](#3-conversor-binario-a-bcd)
 4. [Display de Signo](#4-display-de-signo)
 5. [Decodificador BCD a 7 Segmentos](#5-decodificador-bcd-a-7-segmentos)
+6. [Resultados del testbench en GTKWave](#6-resultados-del-testbench-en-gtkwave)
 
 ---
 
@@ -214,4 +215,5 @@ endmodule
 
 ![BCD a 7 Segmentos](BinarioLCD.png)
 
-
+## 6. Decodificador BCD a 7 Segmentos
+![testbench en gtkwave](testbench_en_gtkwave.png)
