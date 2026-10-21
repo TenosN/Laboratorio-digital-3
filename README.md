@@ -215,5 +215,5 @@ endmodule
 
 ![BCD a 7 Segmentos](BinarioLCD.png)
 
-## 6. Decodificador BCD a 7 Segmentos
+## 6. Resultados del testbench en GTKWave
 ![testbench en gtkwave](testbench_en_gtkwave.png)
